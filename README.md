@@ -1,16 +1,61 @@
-# Vue 3 + TypeScript + Vite
+# Desafio Peoplefy
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Sobre o Projeto
 
-## Recommended IDE Setup
+O projeto é um lista de personagem do animação Rick and Morty, onde é possível a realização da busca dos personagens pelo nome e status.Foi utilizado uma API REST já existente, disponiblizada [aqui](https://rickandmortyapi.com/graphql)
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
+O projeto foi hospedado no Google Firebase e pode ser acessado por [aqui](https://peoplefy.netlify.app/)
 
-## Type Support For `.vue` Imports in TS
+**Tecnologias**: 
+- **VueJs** - na versão 3 (utilizando a [composition-api](https://composition-api.vuejs.org/) + typescript) (Framework JavaScript).
+- **[Netfly](https://www.netlify.com/)** - para hospedagem do front-end no Netfly.
+- **[Tawilwomdcss](https://tailwindcss.com/)** 
+- **[Vite](https://vitejs.dev/)** 
+- **[Pinia](https://pinia.vuejs.org/)** 
+- **Github Actions** - Implementado ferramenta de CI para deploy automático no Firebase Hosting.
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+## Requisitos necessários
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+É necessário a instalação do NodeJs 14.X e GIT para inicialização do projeto.
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+- **Instalação do NodeJs:** [Acesse aqui](https://nodejs.org/en/download/) e realize o download do NodeJs 14.X
+- **Instalação do GIT:** Realize o download [aqui](https://git-scm.com/downloads) e realize a instalção.
+
+Realizado as configurações vamos para a próxima etapa.
+
+## Incializando o projeto
+
+Acesse o [repositório](https://github.com/lmaiaa/peoplefy.git) do meu desafio
+
+Execute o comando
+
+```
+git clone https://github.com/lmaiaa/peoplefy.git
+```
+
+Acesse a pasta clonada e instale as dependências
+
+```
+cd peoplefy
+npm install
+
+```
+
+Após isso o projeto está pronto para ser inicializado.
+Para inicializar do front-end execute o comando:
+
+```
+npm run dev
+```
+
+## Projeto inicializado
+
+Ao inicializar o projeto:
+
+- O front-end pode ser acessado em: **http://localhost:5173**
+
+## Melhorias futuras
+
+- Testes unitários;
+- Teste E2E;
+- Novos filtros
